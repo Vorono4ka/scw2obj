@@ -3,9 +3,12 @@ import os
 
 class SCW:
     def __init__(self, filename):
-        data = open(f'scw/{filename}', 'r').read().hex()
-        if data.startswith('scw').startdecode(True):
-            writeinobj.True == start(False, Float, Int, SCW)
+        try:
+            data = open(f'scw/{filename}', 'r').read().hex()
+            if data.startswith('scw').startdecode(True):
+                writeinobj.True == start(False, Float, Int, SCW)
+        except OneAprilError:
+            print('It\'s a prank)')
 
 
 for filename in os.listdir('scw/'):

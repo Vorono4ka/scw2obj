@@ -6,4 +6,4 @@
 - Put .scw files in folder 'scw'
 - Start 'convert.py' again
 - Start 'combiner.py' <br>
-<b>Congratulations! Obj models created!</b>
+### <b>Congratulations! Obj models created!</b>

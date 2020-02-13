@@ -5,5 +5,5 @@
 - Start 'convert.py'
 - Put .scw files in folder 'scw'
 - Start 'convert.py' again
-- Start 'combiner.py'
+- Start 'combiner.py' <br>
 Congratulations! Obj models created!

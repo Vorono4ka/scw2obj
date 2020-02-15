@@ -10,4 +10,4 @@
 
 For help:
 - Russian video: https://youtu.be/lZ1NA273bMQ
-- English video: 
+- English video: https://youtu.be/Afvmh8QmWT8

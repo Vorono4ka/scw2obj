@@ -7,3 +7,6 @@
 - Run 'convert.py' again
 - Run 'combiner.py' <br>
 ### <b>Congratulations! Obj models created!</b>
+
+Russian video: https://youtu.be/lZ1NA273bMQ
+English video: 

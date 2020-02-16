@@ -9,5 +9,7 @@
 ### <b>Congratulations! Obj models created!</b>
 
 For help:
-- Russian video: https://youtu.be/lZ1NA273bMQ
 - English video: https://youtu.be/Afvmh8QmWT8
+- Reddit: https://www.reddit.com/user/Vorono4ka
+- Instagram: https://www.instagram.com/vorono4.ka/
+- VKontakte: <a href='https://vk.com/vorono4ka_id0_id1_id228_id1488'>Данила Щелков (Danila Schelkov)</a>

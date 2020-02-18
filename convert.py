@@ -137,6 +137,10 @@ class Struct(Reader):
                                     vt = f'{cr.readUShort() + 1}' if mode2 == 2 else f'{cr.readUByte() + 1}'
                                 else:
                                     vt = vn
+                                if mode1 > 3:
+                                    vt = f'{cr.readUShort() + 1}' if mode2 == 2 else f'{cr.readUByte() + 1}'
+                                else:
+                                    vt = vn
                                 poly.append(f'{v}/{vt}/{vn}')
                         obj.write(f'f {" ".join(poly)}\n')
 

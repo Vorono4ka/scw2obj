@@ -100,7 +100,6 @@ class Struct(Reader):
                 if vertex_count > 3:
                     if cr.readString() == 'TEXCOORD':
                         vertex = cr.readTexCoord()
-                        print(len(vertex))
                         obj.write(''.join([f'vt {" ".join([str(y) for y in x])}\n' for x in vertex]))
                     else:
                         cr.readColor()
@@ -138,11 +137,11 @@ class Struct(Reader):
                                 else:
                                     vt = vn
                                 if mode1 > 3:
-                                    vt = f'{cr.readUShort() + 1}' if mode2 == 2 else f'{cr.readUByte() + 1}'
-                                else:
-                                    vt = vn
+                                    cr.readUShort() if mode2 == 2 else cr.readUByte()
                                 poly.append(f'{v}/{vt}/{vn}')
                         obj.write(f'f {" ".join(poly)}\n')
+                obj.close()
+        print(f'The {filename} is converted!')
 
 
 if not os.path.isdir('scw/'):
